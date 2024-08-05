@@ -36,6 +36,6 @@ jobs:
           context: .
           push: true
           #在这里通过加入需要编译的平台和前面配好的QEMU，buildx来达到多平台编译
-          platforms: linux/amd64,linux/arm64,linux/arm
+          platforms: linux/amd64
           #指定用户/仓库名
           tags: facjxzdt/gpt-sovits:latest
